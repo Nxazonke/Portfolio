@@ -143,9 +143,9 @@ justify-content: flex-start;
 #skills .skills{
     flex-direction: column-reverse;
     text-align: center;
-    max-width: 1200px;
+    max-width: 20px;
     margin: 0 auto;
-    padding: 100px 20px;
+    padding: 10px 20px;
 }
 #skills .section-title{
     font-size: 4rem;
@@ -156,23 +156,48 @@ justify-content: flex-start;
     letter-spacing: .2rem;
     text-align: center;
 }
-#skills .title span{
-    color: blue;
+* {box-sizing:border-box}
+
+
+
+.skills {
+  text-align: right;
+  padding-top: 1px; 
+  padding-bottom: 1px; 
+  color: white; 
 }
-#skills .col-right{
-    width: 100%;
-}
-#skills .col-right p{
-    align-content: center;
-    font-size: 2.5rem;
-    margin-top: 10px;
-    line-height: 3rem;
-    font-weight: 500;
-    letter-spacing: 1.5rem;
-}
+
+.html {width: 90%; background-color: #04AA6D;} 
+.css {width: 80%; background-color: #2196F3;} 
+.js {width: 65%; background-color: #f44336;} 
+.php {width: 60%; background-color: #808080;} 
+
 
 /*End Skills Section*/
+/*Contact Section*/
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid blue; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical
+  }
+  input[type=submit] {
+    color: blue;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: white;
+  }
+ 
 
+/*End Contact Section*/
 /*keyframes*/
 @keyframes text_reveal_box{
     50%{
